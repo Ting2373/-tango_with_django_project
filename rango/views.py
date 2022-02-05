@@ -2,8 +2,6 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    hyperlink = "../rango/about/"
-    
     return HttpResponse("Rango says hey there partner! <a href=\'/rango/about/\'>About</a>")
 
 def about(request):
