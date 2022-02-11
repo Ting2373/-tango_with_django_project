@@ -120,14 +120,14 @@ USE_L10N = True
 USE_TZ = True
 
 
-# Media files
-MEDIA_ROOT = MEDIA_DIR
-MEDIA_URL = '/media/'
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-
-STATICFILES_DIRS = [STATIC_DIR, ]
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [STATIC_DIR, ]
+
+# Media files
+MEDIA_ROOT = MEDIA_DIR
+MEDIA_URL = '/media/'
